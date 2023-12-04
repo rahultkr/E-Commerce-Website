@@ -1,0 +1,19 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: white;
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.parent{
+  min-height: 100vh;
+  display: grid !important;
+  grid-template-rows: auto 1fr auto !important;
+  height: max-content;  
+}
